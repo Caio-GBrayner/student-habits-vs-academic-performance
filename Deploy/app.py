@@ -5,7 +5,7 @@ import warnings
 
 warnings.filterwarnings("ignore")
 
-model = joblib.load("../EDA/best_model.pkl")
+model = joblib.load("best_model.pkl")
 
 st.title("Student Exam Score Predictor")
 
