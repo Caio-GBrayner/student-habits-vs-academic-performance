@@ -1,0 +1,8 @@
+services:
+  streamlit-app:
+    build: ./Deploy
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./Deploy:/app
+    restart: unless-stopped
