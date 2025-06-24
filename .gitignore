@@ -148,3 +148,6 @@ anaconda_projects/
 *.db
 
 Cap-12/imagens/*
+
+*.env
+*env
